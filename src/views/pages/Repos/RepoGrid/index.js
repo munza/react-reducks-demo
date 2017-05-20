@@ -7,6 +7,7 @@ import './styles.css';
 import { RepoGrid } from '../../../../components/Repos';
 import { reposOperations } from '../../../../state/ducks/repos';
 import store from '../../../../state/store';
+import { MapRoutes } from '../../../../utils';
 
 class ReposList extends Component {
   componentDidMount() {
@@ -33,7 +34,11 @@ class ReposList extends Component {
           </div>
         ): ''}
 
-        <RepoGrid repos={repos}/>
+        {repos.length ? (
+          <RepoGrid repos={repos}/>
+        ): ''}
+
+        <MapRoutes routes={this.props.routes}/>
       </div>
     );
   }

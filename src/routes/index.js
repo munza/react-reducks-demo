@@ -1,4 +1,5 @@
 import { Welcome, RepoGrid, NotFound } from '../views/pages';
+import React from 'react';
 
 const routes = [
   {
@@ -9,7 +10,6 @@ const routes = [
   {
     path: "/repos",
     component: RepoGrid,
-    exact: true,
   },
   {
     path: "*",
