@@ -1,0 +1,15 @@
+.Repo-item {
+    display: inline-block;
+    list-style: none;
+    width: 200px;
+    margin: 2em .5em;
+}
+
+.Repo-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.Repo-star {
+    display: block;
+}

@@ -1,0 +1,17 @@
+.Counter-count {
+    font-size: 1.5em;
+}
+
+.Counter-button {
+    background-color: transparent;
+    margin: 0 1em;
+    color: #222;
+    font-size: 1.5em;
+    border: 2px solid #222;
+    width: 2em;
+    cursor: pointer;
+}
+
+.Counter-button:hover {
+    background-color: #f8f8f8;
+}
