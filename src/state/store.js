@@ -18,6 +18,6 @@ function configureStore(initialState = {}) {
   );
 }
 
-const store = configureStore(initialState);
+export const store = configureStore(initialState);
 
 export default store;

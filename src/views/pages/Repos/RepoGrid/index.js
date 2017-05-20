@@ -37,8 +37,6 @@ class ReposList extends Component {
         {repos.length ? (
           <RepoGrid repos={repos}/>
         ): ''}
-
-        <MapRoutes routes={this.props.routes}/>
       </div>
     );
   }
