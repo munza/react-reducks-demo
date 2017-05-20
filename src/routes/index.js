@@ -1,5 +1,4 @@
 import { Welcome, RepoGrid, NotFound } from '../views/pages';
-import React from 'react';
 
 const routes = [
   {
